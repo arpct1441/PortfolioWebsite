@@ -19,7 +19,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -55,8 +55,8 @@
                     <img src="images/denim.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Aira and I'm a <span class="typing-2"></span></div>
-                    <p>Hello! I am an IT student from the Philippines majoring in Web Development. I am an aspiring web developer and designer also passionate in graphic design, editing and creative writing.</p>
+                    <div></div>
+                    <p>Hello! My passion lies in design and making creative ideas come to life.  I am dedicated into making a big difference in the world as my drive is to make life easier through technology.</p>
                     <a href="CORTEZ_Aira_CV.pdf">Download CV</a>
                 </div>
             </div>
@@ -100,10 +100,8 @@
             <h2 class="title">My skills</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>Although I am majoring in Web Technologies, I am also passionate in editing and graphic desigining. I use tools such 
-                    as adobe photoshop, premiere, lightroom, canva and other mobile applications like snapseed, capcut or picsart. I am also
-                    confident in creative writing like writing fan-fictions and poetry.</p>
+
+                    <p>I've finished my studies at University of the Cordilleras where I took up Information Technology major in Web Technologies. These are some of the skills I learned.</p>
                     
                 </div>
                 <div class="column right">
@@ -123,8 +121,8 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Editing</span>
-                            <span>75%</span>
+                            <span>Graphic Design</span>
+                            <span>80%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
@@ -151,34 +149,35 @@
     <section class="works" id="works">
         <div class="max-width">
             <h2 class="title">My Works</h2>
-            <div class="carousel owl-carousel">
+            <div class="carousel owl-carousel">                
+                <div class="card">
+                    <div class="box">
+                        <a href="https://thepropertymanager.online/"><img src="images/landing.png"></a>
+                        <div class="text">thepropertymanager.online</div>
+                        <p>a company landing page of The PMO Co.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://thepmo.co/"><img src="images/landing.png"></a>
+                        <div class="text">thepmo.co</div>
+                        <p>a property management system of The PMO Co.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://test.homefie.com/"><img src="images/landing.png"></a>
+                        <div class="text">homefie.com</div>
+                        <p>an online platform for home owners, home designers, and home builders.</p>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="box">
                         <a href="https://solshardin.github.io/finalsitenisol/index.html"><img src="images/solshardin.png"></a>
-                        <div class="text">Sol's Hardin</div>
-                        <p>An ecommerce website for plants.</p>
+                        <div class="text">sol's hardin</div>
+                        <p>an ecommerce website for plants.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <a href="https://github.com/arpct1441?tab=repositories"><img src="images/landing.png"></a>
-                        <div class="text">Github Repositories</div>
-                        <p>School works are mostly uploaded in github for archive purposes.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -218,20 +217,21 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/arpct1441@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" input type="message" name="message" placeholder="Message.." required>
+                            </textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
